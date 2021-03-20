@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Next.js製の自作ブログ"
         />
         <meta
           property="og:image"
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/profile.jpg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
